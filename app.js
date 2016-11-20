@@ -1,9 +1,9 @@
 var parse = require('tcx');
 var fs = require('fs');
 var xmldom = new (require('xmldom').DOMParser)();
-var dirname = '../2016kanoroutes/'; 
+var dirname = '../tcxfiles/'; 
 // read in file list using readdirsync
-var filenames = fs.readdirSync(dirname);1
+var filenames = fs.readdirSync(dirname);
 
 var emptyJSON = {
   "type": "FeatureCollection",
